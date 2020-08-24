@@ -15,8 +15,8 @@ func main() {
 	fmt.Println("5. If")
 	fmt.Println("6. Case")
 	fmt.Println("7. For")
-	fmt.Println("Enter the category number: ")
-	fmt.Scanf("%d", &catNo)
+	fmt.Print("Enter the category number: ")
+	fmt.Scan(&catNo)
 	if catNo > 0 {
 		switch catNo {
 		case 1:
