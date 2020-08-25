@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"goprac/begin"
+	"goprac/integer"
 )
 
 func main() {
@@ -21,6 +22,8 @@ func main() {
 		switch catNo {
 		case 1:
 			begin.CallBegin()
+		case 2:
+			integer.CallInteger()
 		}
 	}
 }
